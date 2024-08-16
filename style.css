@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(14, 80, 9);
+    text-decoration: underline;
+}
+
+#dateContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    /* Adjust this value if needed */
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+
+#taskInput {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#addButton {
+    width: 120px;
+    padding: 10px 20px;
+    background-color: #3e90c6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteAllButton {
+    width: 120px;
+    padding: 10px 20px;
+    background-color: #dc1b1b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#date-achievement-container {
+    display: flex;
+    padding: 20px;
+    border-radius: 24px;
+    background-color: #ddbf66;
+    align-items: center; /* Vertically align children in the center */
+    justify-content: space-between; /* Spread children horizontally */
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.task span {
+    flex: 1;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.task.complete {
+    background-color: #e6e6e6;
+}
+
+.task.complete span {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+.deleteButton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #cc0000;
+}
+
+/* Add styling for the achievement percentage */
+#achievementPercentage {
+    position: relative;
+    right: 10px; /* Adjust the right position as needed */
+    background-color: #484f4b;
+    color: rgb(46, 200, 59);
+    padding: 5px 10px;
+    border: 3px solid #0bf903;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
