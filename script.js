@@ -59,6 +59,7 @@ function addTaskWithSN(taskText) {
 
   // Create and set the task description
   var taskSpan = document.createElement("span");
+  taskSpan.className = "task-desc";
   taskSpan.textContent = taskText;
 
   // Create a delete button

@@ -69,26 +69,41 @@ h1 {
 
 #taskList {
     list-style-type: none;
-    padding: 0;
+    margin: 50px 400px;
 }
 
 .task {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+    background-color: #6651a9;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.task:hover {
+    background-color: #beb8a6;
 }
 
 .task span {
-    flex: 1;
-    margin-left: 10px;
+    color: white;
+    margin-left: 0;
     cursor: pointer;
 }
 
+.task-sn {
+    flex: 0 0 4% !important;
+}
+
+.task-desc {
+    background-color: #fb2702;
+    flex: 0 0 70% !important;
+}
+
 .task.complete {
-    background-color: #e6e6e6;
+    background-color: #88c262;
 }
 
 .task.complete span {
@@ -97,6 +112,7 @@ h1 {
 }
 
 .deleteButton {
+    flex: 0 0 10%;
     margin-left: 10px;
     padding: 5px 10px;
     background-color: #ff4d4d;
