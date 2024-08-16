@@ -98,7 +98,7 @@ h1 {
 }
 
 .task-desc {
-    flex: 0 0 86% !important;
+    flex: 0 0 80% !important;
 }
 
 .task.complete {
