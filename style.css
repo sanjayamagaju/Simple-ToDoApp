@@ -69,7 +69,7 @@ h1 {
 
 #taskList {
     list-style-type: none;
-    margin: 50px 400px;
+    margin: 50px 200px;
 }
 
 .task {
@@ -98,8 +98,7 @@ h1 {
 }
 
 .task-desc {
-    background-color: #fb2702;
-    flex: 0 0 70% !important;
+    flex: 0 0 86% !important;
 }
 
 .task.complete {
